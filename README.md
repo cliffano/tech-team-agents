@@ -1,4 +1,10 @@
-# 📺 Tech Team Agents: Famous Tech Teams as AI Agent Personas
+![Avatar](avatar.jpg)
+
+[![Build Status](https://github.com/cliffano/tech-team-agents/workflows/CI/badge.svg)](https://github.com/cliffano/tech-team-agents/actions?query=workflow%3ACI)
+
+# 📺 Tech Team Agents
+
+Famous Tech Teams as AI Agent Personas
 
 > **Your favourite tech teams, ready to work for you** — From compression algorithm wizards to basement IT legends, from hacktivist cells to 80s PC pioneers. Each agent is a fully realised character with personality, expertise, processes, and their own opinions about your code.
 
