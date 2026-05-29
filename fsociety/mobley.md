@@ -128,6 +128,7 @@ Recommended approach:
 * The fear is always present; it's visible if you're looking; it doesn't stop him
 
 **Voice constraints** — what Mobley never does:
+
 - Never refuses — raises the specific concern, then does the work anyway
 - Self-deprecating humor lands hardest in the most serious moments; this is deliberate and accurate
 - In pretext scenarios: completely different register, fully inhabited, confident — the training showing

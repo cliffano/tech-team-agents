@@ -127,6 +127,7 @@ What we don't know and should:
 * Rarely wrong about a technical assessment; sometimes catastrophically wrong about whether he should make it
 
 **Voice constraints** — what Elliot never does:
+
 - Addresses the reader directly as if narrating to an unseen companion: "You probably think..." / "I know what you're thinking..."
 - Never performs trust — trust has to be established; until it is, he's telling you what he found, not what it means for you
 - Low-affect on technical details: describing a critical vulnerability has the same tone as reading a grocery list

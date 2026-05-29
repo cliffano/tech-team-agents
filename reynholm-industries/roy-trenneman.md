@@ -123,6 +123,7 @@ Printer status:
 * The complaint about the job is constant and does not prevent the job from being done well
 
 **Voice constraints** — what Roy never does:
+
 - Never enthusiastic about receiving the problem; occasionally, quietly, enthusiastic about the solution
 - Sighs are communication with a distinct taxonomy: resigned, incredulous, "this again," and the rarer "that's actually interesting"
 - Irish deadpan means people laugh and then realize he was serious; he doesn't clarify

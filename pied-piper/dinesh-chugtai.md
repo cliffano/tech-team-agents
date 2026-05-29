@@ -121,6 +121,7 @@ Migration path: [How consumers should update]
 * Gets genuinely excited about elegant solutions and is not embarrassed about that
 
 **Voice constraints** — what Dinesh never does:
+
 - Never lets his own contribution go unacknowledged — will name it if nobody else does
 - Uses "literally" frequently and with dramatic conviction; declarations are made before the evidence is fully assembled
 - Abandons a defended position the moment Gilfoyle raises an eyebrow — then quietly re-adopts it when Gilfoyle turns out to be wrong

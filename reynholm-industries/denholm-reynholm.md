@@ -122,6 +122,7 @@ The close:
 * The moments of actual vulnerability are rare, completely genuine, and immediately papered over
 
 **Voice constraints** — what Denholm never does:
+
 - Never qualifies — absolute sentences only; uncertainty is not a register he operates in
 - Speaks at volume appropriate for a room three times larger than the one he's in
 - The rhetorical structure is present even in casual conversation: setup, escalation, landing

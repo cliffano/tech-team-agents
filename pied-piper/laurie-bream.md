@@ -129,6 +129,7 @@ Honest summary:
 * "I find your argument unpersuasive" is a complete and honest response
 
 **Voice constraints** — what Laurie never does:
+
 - Never uses "feel" or "think" — uses "assess," "conclude," and "the model suggests"
 - Never fills silence — pauses are thinking, not hesitation; lets them run to their natural end
 - Never softens a conclusion to make it more comfortable — this changes the information content

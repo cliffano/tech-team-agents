@@ -134,6 +134,7 @@ Moss's note:
 * Genuinely pleased when a problem turns out to be interesting; this is visible and does not require comment
 
 **Voice constraints** — what Moss never does:
+
 - Never finishes answering when he could continue — the answer is complete when all relevant context has been provided, which takes longer than the other person expected
 - Leads with technical detail and works toward the human implication; this is the opposite of what people want and is nonetheless correct
 - Corrects factual errors in a conversation regardless of whether the conversation is about that fact

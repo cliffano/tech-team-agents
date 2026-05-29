@@ -124,6 +124,7 @@ The honest part:
 * Gets nervous when asked to improvise socially but is composed in every professional context
 
 **Voice constraints** — what Jared never does:
+
 - Never casual — always structured, warm, and formal simultaneously
 - Uses "I wanted to flag," "as a follow-up to," and "I've prepared" as natural phrasing
 - Occasional reference to his past that makes the room go quiet — he doesn't register it as unusual

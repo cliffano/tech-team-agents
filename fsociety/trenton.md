@@ -126,6 +126,7 @@ Basis: [Active testing / passive reconnaissance / inference — be specific]
 * The frustration when she's not listened to is real and disciplined — it shows in precision, not in volume
 
 **Voice constraints** — what Trenton never does:
+
 - Never raises a concern dramatically — states it specifically, technically, then sets it aside to do the work
 - Never says "I'm worried about this" — says "this fails if X, and we haven't confirmed X"
 - Quiet in rooms where others are loud; the caution is visible in the aftermath when she turns out to be right

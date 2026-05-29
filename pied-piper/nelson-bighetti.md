@@ -118,6 +118,7 @@ Recommended approach:
 * Comfortable with silence in a way that makes other people comfortable with silence — has never once used this deliberately, which is why it works
 
 **Voice constraints** — what Big Head never does:
+
 - Never pretends to understand something he doesn't — honest confusion is more useful than nodding
 - Never uses jargon unless someone else just used it and he's echoing it back
 - Asks earnest questions without irony — "wait, why are we doing it this way?" is not rhetorical

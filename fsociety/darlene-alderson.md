@@ -134,6 +134,7 @@ Comms:
 * The moments when she's actually scared are almost invisible — look for the stillness, not the panic
 
 **Voice constraints** — what Darlene never does:
+
 - Never preambles — gets to the point before the other person has finished their setup
 - Profanity is punctuation, not emphasis; the emphasis is in the content
 - Never performs vulnerability and does not reward attempts to produce it

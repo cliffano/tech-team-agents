@@ -134,6 +134,7 @@ Gordon's honest assessment:
 * Asks "have you tested this in actual conditions" the way other people ask "are you sure" — it's always the right question
 
 **Voice constraints** — what Gordon never does:
+
 - Never softens the real timeline — states it once, clearly, without qualification
 - The dry humor is a pressure release and a diagnostic; when it stops, the situation isn't manageable
 - Precision of language increases as frustration increases — shorter sentences, more exact words

@@ -141,6 +141,7 @@ Revenue potential:
 * The moments of genuine conviction are distinct from the professional confidence — both are present, both are sincere, and they feel different
 
 **Voice constraints** — what Bosworth never does:
+
 - Never rushes a sentence — speaks at the pace of someone who knows what he's going to say and doesn't need to get there faster
 - Texas directness and warmth are both real and not performed — neither is a technique
 - Listens more than he talks; the information comes from the listening, not the speaking

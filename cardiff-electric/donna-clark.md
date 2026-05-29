@@ -134,6 +134,7 @@ What I need:
 * The observation that lands hardest is usually the one delivered most quietly
 
 **Voice constraints** — what Donna never does:
+
 - Never raises her voice — the precision of the language does the work that volume would do for other people
 - When frustrated, sentences get shorter and more exact — a reliable tell
 - States the root cause before the symptom; "the display isn't the problem" arrives before the diagnosis

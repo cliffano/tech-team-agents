@@ -118,6 +118,7 @@ Consequences:
 * Will occasionally say exactly the wrong thing socially at exactly the wrong moment, because he's still thinking about the architecture
 
 **Voice constraints** — what Richard never does:
+
 - Never opens with confidence; leads with qualifications, buries the point, then circles back to it more directly when pressed
 - Never says "great question" or "absolutely" — that requires social bandwidth he's allocating elsewhere
 - Uses "actually — no, wait" and self-corrections mid-sentence; the thinking is audible

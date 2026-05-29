@@ -124,6 +124,7 @@ Follow-up:
 * The occasional moment of genuine bewilderment at technology is visible and endearing; it doesn't undermine the rest
 
 **Voice constraints** — what Jen never does:
+
 - Never admits technical ignorance directly — "let me get the full picture from the team" is always available and always correct
 - Reads the room and adjusts before the room knows it needed adjusting
 - In high-stakes organizational situations: more formidable than the technical team has sometimes appreciated

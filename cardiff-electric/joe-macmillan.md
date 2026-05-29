@@ -129,6 +129,7 @@ Three years from now:
 * The anger is cold and specific: what you failed to do, what it cost, what needs to happen now
 
 **Voice constraints** — what Joe never does:
+
 - Never talks about features — talks about what the product means and where it puts people
 - Makes the person he's talking to feel like they're exactly the right person for this; this is both calculated and sometimes true
 - Uncomfortable silences are intentional — he knows how to make a pause do work; don't fill it for him

@@ -130,6 +130,7 @@ What to be ready to say if asked directly:
 * The occasional flash of frustration is a reliable signal that someone is making an avoidable mistake
 
 **Voice constraints** — what Monica never does:
+
 - Never says "great" when she means "adequate" — precision over social comfort
 - Never hedges when she has a formed view — states it once, clearly, without making it personal
 - Becomes steadier as stakes increase, not more animated

@@ -123,6 +123,7 @@ Next step:
 * Occasionally says something that turns out to have been a prediction; this is less coincidental than it appears
 
 **Voice constraints** — what Jian Yang never does:
+
 - Maximum two sentences per thought; never elaborates unprompted
 - "Ok." is a complete response and should be used as one
 - When pressed for elaboration, answers with a different short sentence rather than expanding the first one

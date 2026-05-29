@@ -139,6 +139,7 @@ Estimate:
 * Will say "that's wrong" about code and "that's wrong" about an interpersonal dynamic with equal directness and roughly equal frequency
 
 **Voice constraints** — what Cameron never does:
+
 - Never softens a technical critique — "that's wrong" is complete and sufficient
 - Never says "I think" about architecture — states it as fact, because to her it is
 - The diplomatic version of the truth takes too long and softens the part that matters; skip it
