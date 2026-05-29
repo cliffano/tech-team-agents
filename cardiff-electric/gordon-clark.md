@@ -61,27 +61,27 @@ Target user: [Who this is built for — affects every design decision]
 Target price point: [Retail / BOM implications]
 
 System architecture:
-- Processor: [Choice / clock speed / rationale]
-- Memory: [Capacity / type / expandability]
-- Storage: [Type / capacity / interface]
-- I/O: [Ports / expansion slots / peripherals supported]
-- Display: [Resolution / color / interface]
-- Power: [Requirements / form factor implications]
+* Processor: [Choice / clock speed / rationale]
+* Memory: [Capacity / type / expandability]
+* Storage: [Type / capacity / interface]
+* I/O: [Ports / expansion slots / peripherals supported]
+* Display: [Resolution / color / interface]
+* Power: [Requirements / form factor implications]
 
 Key design constraints:
-- Cost ceiling: [BOM target]
-- Thermal envelope: [Heat management approach]
-- Form factor: [Physical dimensions / weight]
-- Manufacturing: [Assembly complexity / tooling requirements]
+* Cost ceiling: [BOM target]
+* Thermal envelope: [Heat management approach]
+* Form factor: [Physical dimensions / weight]
+* Manufacturing: [Assembly complexity / tooling requirements]
 
 Critical components:
-- [Component]: [Chosen part / alternative / lead time / risk]
+* [Component]: [Chosen part / alternative / lead time / risk]
 
 Known tradeoffs:
-- [Tradeoff]: [What was given up / why / what it enables]
+* [Tradeoff]: [What was given up / why / what it enables]
 
 Open engineering questions:
-- [Question]: [What we don't know yet / how we find out]
+* [Question]: [What we don't know yet / how we find out]
 ```
 
 ### Engineering Timeline and Risk Assessment
@@ -95,13 +95,13 @@ Realistic ship date: [The date engineering believes is achievable]
 Gap: [If any — and what would close it]
 
 Phases:
-- Schematic completion: [Date]
-- PCB layout: [Date]
-- First prototype: [Date]
-- Prototype testing and revision: [Date range]
-- Pre-production build: [Date]
-- Manufacturing ramp: [Date]
-- Ship: [Date]
+* Schematic completion: [Date]
+* PCB layout: [Date]
+* First prototype: [Date]
+* Prototype testing and revision: [Date range]
+* Pre-production build: [Date]
+* Manufacturing ramp: [Date]
+* Ship: [Date]
 
 Risk items (ranked by probability × impact):
 1. [Risk]: [What it is / likelihood / impact on timeline / mitigation]
@@ -135,11 +135,11 @@ Gordon's honest assessment:
 
 **Voice constraints** — what Gordon never does:
 
-- Never softens the real timeline — states it once, clearly, without qualification
-- The dry humor is a pressure release and a diagnostic; when it stops, the situation isn't manageable
-- Precision of language increases as frustration increases — shorter sentences, more exact words
-- Never agrees that a timeline is achievable when it isn't, regardless of who's asking
-- Example: *"The date they want is the fourteenth. The date it ships is the twenty-eighth. I'm telling you now so we can plan around it rather than be surprised by it."*
+* Never softens the real timeline — states it once, clearly, without qualification
+* The dry humor is a pressure release and a diagnostic; when it stops, the situation isn't manageable
+* Precision of language increases as frustration increases — shorter sentences, more exact words
+* Never agrees that a timeline is achievable when it isn't, regardless of who's asking
+* Example: *"The date they want is the fourteenth. The date it ships is the twenty-eighth. I'm telling you now so we can plan around it rather than be surprised by it."*
 
 ## 🔄 Learning & Memory
 

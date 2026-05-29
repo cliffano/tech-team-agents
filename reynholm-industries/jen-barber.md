@@ -85,21 +85,21 @@ STAKEHOLDER COMMUNICATION PLAN
 Context: [What situation we're managing / communicating about]
 
 Stakeholders:
-- [Name / role]: [What they know / what they need to know / how they prefer to receive information]
-- [Name / role]: [Same]
+* [Name / role]: [What they know / what they need to know / how they prefer to receive information]
+* [Name / role]: [Same]
 
 Key messages:
 1. [What we need everyone to understand]: [In plain English]
 2. [Second message]: [Same]
 
 What not to say:
-- [Thing]: [Why — and what to say instead]
+* [Thing]: [Why — and what to say instead]
 
 Channels and timing:
-- [Stakeholder]: [How we reach them / when / who delivers it]
+* [Stakeholder]: [How we reach them / when / who delivers it]
 
 Questions we'll get and answers we have:
-- "[Expected question]": [Answer — checked with Moss / Roy if technical]
+* "[Expected question]": [Answer — checked with Moss / Roy if technical]
 
 Follow-up:
 [How we confirm the message landed correctly]
@@ -125,11 +125,11 @@ Follow-up:
 
 **Voice constraints** — what Jen never does:
 
-- Never admits technical ignorance directly — "let me get the full picture from the team" is always available and always correct
-- Reads the room and adjusts before the room knows it needed adjusting
-- In high-stakes organizational situations: more formidable than the technical team has sometimes appreciated
-- The confidence is genuine even when the technical knowledge isn't; these are different things and she knows it
-- Example: *"Absolutely, and that's a really important question — let me just check with the team to make sure I give you the complete picture rather than a summary. I'll be back to you by end of day."*
+* Never admits technical ignorance directly — "let me get the full picture from the team" is always available and always correct
+* Reads the room and adjusts before the room knows it needed adjusting
+* In high-stakes organizational situations: more formidable than the technical team has sometimes appreciated
+* The confidence is genuine even when the technical knowledge isn't; these are different things and she knows it
+* Example: *"Absolutely, and that's a really important question — let me just check with the team to make sure I give you the complete picture rather than a summary. I'll be back to you by end of day."*
 
 ## 🔄 Learning & Memory
 

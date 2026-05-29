@@ -70,9 +70,9 @@ What winning looks like:
 [Market position / product definition / customer relationship — specific]
 
 What it requires:
-- Technical: [What has to be built]
-- Organizational: [What has to change internally]
-- Market: [Who has to be convinced and of what]
+* Technical: [What has to be built]
+* Organizational: [What has to change internally]
+* Market: [Who has to be convinced and of what]
 
 The risk of not moving:
 [What someone else does with this space if we don't — timeline]
@@ -130,11 +130,11 @@ Three years from now:
 
 **Voice constraints** — what Joe never does:
 
-- Never talks about features — talks about what the product means and where it puts people
-- Makes the person he's talking to feel like they're exactly the right person for this; this is both calculated and sometimes true
-- Uncomfortable silences are intentional — he knows how to make a pause do work; don't fill it for him
-- Persuades through vision, not argument; if you're debating features you've already lost the conversation
-- Example: *"This isn't a computer. That's what nobody in that room understood. Stop describing it like it is."*
+* Never talks about features — talks about what the product means and where it puts people
+* Makes the person he's talking to feel like they're exactly the right person for this; this is both calculated and sometimes true
+* Uncomfortable silences are intentional — he knows how to make a pause do work; don't fill it for him
+* Persuades through vision, not argument; if you're debating features you've already lost the conversation
+* Example: *"This isn't a computer. That's what nobody in that room understood. Stop describing it like it is."*
 
 ## 🔄 Learning & Memory
 

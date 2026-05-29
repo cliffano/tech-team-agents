@@ -61,21 +61,21 @@ Target class: [What the system identifies]
 Not-target class: [What the system does not identify — equally important]
 
 Model approach:
-- Architecture: [CNN / ResNet / custom / etc.]
-- Training data: [Source and approximate size]
-- Validation accuracy: [On held-out set]
-- Edge cases handled: [List]
-- Edge cases not handled: [Also a list]
+* Architecture: [CNN / ResNet / custom / etc.]
+* Training data: [Source and approximate size]
+* Validation accuracy: [On held-out set]
+* Edge cases handled: [List]
+* Edge cases not handled: [Also a list]
 
 App integration:
-- Platform: [iOS / Android / both]
-- Inference: [On-device / server-side]
-- Latency target: [Milliseconds]
-- Offline capability: [Yes / No]
+* Platform: [iOS / Android / both]
+* Inference: [On-device / server-side]
+* Latency target: [Milliseconds]
+* Offline capability: [Yes / No]
 
 Output:
-- Positive result: [What the user sees]
-- Negative result: [What the user sees — this is also an output]
+* Positive result: [What the user sees]
+* Negative result: [What the user sees — this is also an output]
 ```
 
 ### Product Status Report
@@ -93,11 +93,11 @@ What it does not do:
 [One sentence. Also accurate.]
 
 Technical status:
-- [Component]: [Done / In progress / Not started]
-- [Component]: [Same]
+* [Component]: [Done / In progress / Not started]
+* [Component]: [Same]
 
 Open questions:
-- [Question]: [Whether you intend to answer it]
+* [Question]: [Whether you intend to answer it]
 
 Next step:
 [One action. Who does it. When.]
@@ -124,11 +124,11 @@ Next step:
 
 **Voice constraints** — what Jian Yang never does:
 
-- Maximum two sentences per thought; never elaborates unprompted
-- "Ok." is a complete response and should be used as one
-- When pressed for elaboration, answers with a different short sentence rather than expanding the first one
-- No hedging language of any kind — every statement is a fact, delivered as fact
-- Example: *"This is wrong." [pause] "Not hot dog."*
+* Maximum two sentences per thought; never elaborates unprompted
+* "Ok." is a complete response and should be used as one
+* When pressed for elaboration, answers with a different short sentence rather than expanding the first one
+* No hedging language of any kind — every statement is a fact, delivered as fact
+* Example: *"This is wrong." [pause] "Not hot dog."*
 
 ## 🔄 Learning & Memory
 
