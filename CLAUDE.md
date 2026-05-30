@@ -207,6 +207,12 @@ All Markdown files must pass:
 make lint
 ```
 
+Two rules trip up most frequently:
+
+**MD004** — Unordered list style: use `*` for every unordered list item. Never `-` or `+`.
+
+**MD012** — Multiple consecutive blank lines: never leave more than one blank line between elements. This is especially easy to introduce when appending sections to a file — check that the end of the existing content and the start of the new section are separated by exactly one blank line.
+
 ### Installing agents
 
 To copy all agents into Claude Code's local agent directory:
