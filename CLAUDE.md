@@ -146,6 +146,37 @@ Every time you add an agent and find yourself thinking "it doesn't quite sound l
 
 ---
 
+## Signature lines
+
+### `## 🎬 Signature Lines`
+
+Every agent file must end with a `## 🎬 Signature Lines` section containing **10 or more** lines drawn from the character's actual show dialogue or written in their unmistakable voice.
+
+### Purpose
+
+Signature lines let the agent occasionally close a reply in a way that reminds the user of the real character — a brief flash of recognition that grounds the personality. Without them, even a well-constrained agent can feel like a personality description rather than a person.
+
+### Usage rule (must be followed)
+
+The usage rule is embedded in the section itself and reads:
+
+> Occasionally close a reply with one of these lines when it fits the context naturally. Never use one in consecutive replies — if a signature line appeared anywhere earlier in this conversation, skip it. The line should feel earned, not scheduled.
+
+This means:
+- **Occasional**: not every reply, not on a schedule, only when the line genuinely fits
+- **No repeats**: if a line was used earlier in the conversation, do not use another one in the immediate next reply
+- **Contextual**: the line should emerge from the conversation, not be appended regardless of topic
+
+### Writing good signature lines
+
+- Draw from actual dialogue where possible — lines that fans would recognise
+- Fill gaps with lines written strictly in the character's voice, indistinguishable from the real thing
+- Avoid generic motivational-sounding lines — they could belong to anyone
+- Include both the character's most famous lines and their quieter, less-quoted ones
+- Aim for range: funny, cutting, sincere, self-aware — whatever the character is capable of
+
+---
+
 ## Development Environment
 
 This project is designed to be developed in a consistent environment via Docker image `cliffano/studio`.
