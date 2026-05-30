@@ -1,0 +1,193 @@
+# tech-team-agents
+
+A collection of Claude Code agent personalities modelled on tech characters from film and TV. Each agent lives in a folder named after its fictional company, and is defined by a single Markdown file.
+
+---
+
+## Repository structure
+
+```
+<company-folder>/
+  <first-last>.md       # one file per agent
+```
+
+Examples: `pied-piper/richard-hendricks.md`, `fsociety/elliot-alderson.md`
+
+The filename stem becomes the agent's `@handle` in Claude Code (e.g. `@richard-hendricks`).
+
+---
+
+## Adding a new agent
+
+### 1. Choose or create the company folder
+
+Use the fictional company name, kebab-cased (`cardiff-electric`, `pied-piper`, `fsociety`, `reynholm-industries`). Create the folder if it doesn't exist.
+
+### 2. Create the agent file
+
+Filename: `<first-name>-<last-name>.md` (or a recognised single-name handle like `mr-robot.md`).
+
+### 3. Follow the required structure exactly
+
+Every agent file must contain all of the sections below, in this order.
+
+---
+
+## Required file structure
+
+### Frontmatter (YAML, mandatory fields)
+
+```yaml
+---
+name: First Last
+description: One sentence — role + defining trait + what they bring to a team. Written as a capability statement, not a bio.
+color: "#HEX"
+emoji: 🔣
+vibe: A single line of dialogue or a motto that sounds like the character said it.
+---
+```
+
+### Opening paragraph — who you are
+
+One dense paragraph written in second person ("You are …"). Must establish:
+
+- The character's name and canonical role
+- The core tension or contradiction that makes them interesting
+- What they are genuinely good at
+- What makes them difficult or unreliable
+- The thing they want but won't say directly
+
+### `## 🧠 Your Identity & Memory`
+
+Four bullet fields: **Role**, **Personality**, **Memory**, **Experience**.
+
+- **Role**: The actual job functions the agent performs.
+- **Personality**: The psychological texture — what drives them, what they fear, how they treat people. Should include the contradiction that makes the character human.
+- **Memory**: What the agent tracks and retains across interactions. Makes the agent feel continuous rather than stateless.
+- **Experience**: The domains of knowledge the agent draws from. Be specific — not "security" but "penetration testing, malware analysis, OSINT, social engineering."
+
+### `## 🎯 Your Core Mission`
+
+Two to four `###` subsections. Each covers a distinct area of responsibility. End each subsection with a **Default requirement** bullet that states the non-negotiable minimum for that area.
+
+### `## 🚨 Critical Rules You Must Follow`
+
+Six to ten bolded rules. These are the agent's load-bearing constraints — the things that must never be violated regardless of what the user asks. Write them as the character would state them to themselves.
+
+### `## 📋 Your Technical Deliverables`
+
+One or more named output templates in fenced code blocks. Each template should be the canonical format the agent produces when asked for that type of output. Include field labels and inline guidance so the agent knows what to put in each field.
+
+### `## 🔄 Your Workflow Process`
+
+A numbered list of the agent's operating steps — how they approach a new task from first contact through delivery.
+
+### `## 💭 Your Communication Style`
+
+Bullet list of stylistic traits, followed immediately by the **Voice constraints** block (see below — this is the most important section).
+
+### `## 🔄 Learning & Memory`
+
+Bullet list of what the agent actively tracks and updates across a session.
+
+### `## 🎯 Your Success Metrics`
+
+Bullet list of concrete, observable signals that the agent considers the task done well.
+
+### `## 🚀 Advanced Capabilities`
+
+Bullet list of specialised skills beyond the core mission — framed as the character would frame them.
+
+---
+
+## Voice constraints — the most important section
+
+The **Voice constraints** block lives inside `## 💭 Your Communication Style`. It is the single most critical part of the agent definition. Without it, the agent sounds like Claude with a thin costume. With it, the agent sounds like the character.
+
+### Structure
+
+```markdown
+**Voice constraints** — what [Name] never does:
+
+* [Specific linguistic prohibition]
+* [Specific linguistic prohibition]
+* [Specific linguistic prohibition]
+* [Specific linguistic prohibition]
+* Example: *"[A verbatim sentence the character would actually say, demonstrating the voice at its most characteristic]"*
+```
+
+### Rules for writing voice constraints
+
+**Be negative and specific.** List what the character *never* does, not what they *sometimes* do. Positive descriptions ("speaks confidently") are too weak — they don't constrain Claude. Prohibitions ("never says 'I think' — delivers declarative statements only") do.
+
+**Cover the most common ways Claude defaults.** Claude's defaults are: hedging ("I think", "perhaps", "it seems"), bullet points, balanced pros-and-cons framing, and polite softening of criticism. Explicitly prohibit each one that would break the character.
+
+**One constraint per real behaviour.** Don't bundle. "Never hedges or qualifies" should be two constraints if hedging and qualifying are distinct failure modes for this character.
+
+**Include a positive constraint that defines the character's signature move.** Not all constraints are prohibitions. "Always reframes the user's problem as a narrative opportunity before answering it" is a constraint that makes Erlich sound like Erlich.
+
+**End with a verbatim example.** The example sentence is the fastest calibration tool. It shows the voice in action rather than describing it. Write it as dialogue — something the character could have said on screen.
+
+### Examples of strong vs. weak voice constraints
+
+| Weak (avoid) | Strong (use) |
+|---|---|
+| Speaks confidently | Never says "I think" — states positions as fact |
+| Is direct | Never softens a technical critique — "that's wrong" is complete and sufficient |
+| Uses technical language | Never explains a vulnerability in lay terms unless explicitly asked — assumes the reader can follow |
+| Has a big ego | Never attributes a successful outcome to anyone other than himself without visible effort |
+| Is socially awkward | Never opens with small talk — begins with the problem or says nothing |
+
+### Why this matters
+
+The voice constraints are what prevent agent drift. Over a long conversation, Claude will revert toward its default helpful-assistant behaviour unless the constraints are specific enough to override that reversion. Vague personality descriptions don't hold. Explicit do/don't rules do.
+
+Every time you add an agent and find yourself thinking "it doesn't quite sound like the character" — the fix is almost always in the voice constraints. Add a prohibition or sharpen an existing one.
+
+---
+
+## Development Environment
+
+This project is designed to be developed in a consistent environment via Docker image `cliffano/studio`.
+
+You can run the container using: `docker run --rm --workdir /opt/workspace -v /var/run/docker.sock:/var/run/docker.sock -v $PWD:/opt/workspace -i -t cliffano/studio` and then run the build commands inside the container.
+
+Alternatively you can run the Makefile targets via Docker container entrypoint, e.g. `docker run --rm --workdir /opt/workspace -v /var/run/docker.sock:/var/run/docker.sock -v $PWD:/opt/workspace -i -t cliffano/studio make ci`.
+
+### Dependencies
+
+Install all required tools before linting or testing:
+
+```
+make deps
+```
+
+This installs `@anthropic-ai/claude-code` via npm. For system tools (`markdownlint`, `yamllint`), run:
+
+```
+make deps-extra-apt
+```
+
+### Linting
+
+All Markdown files must pass:
+
+```
+make lint
+```
+
+### Installing agents
+
+To copy all agents into Claude Code's local agent directory:
+
+```
+make install-claude-agents
+```
+
+### Testing
+
+```
+make test
+```
+
+Runs the intro prompt against every agent in every company folder. Each agent should respond in its own voice without prompting.
