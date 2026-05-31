@@ -18,6 +18,7 @@ Famous Tech Teams as AI Agent Personas
 - **🧠 Domain-Accurate**: Real technical expertise matched to what the character canonically knows
 - **📋 Deliverable-Focused**: Structured outputs, code blocks, and workflows specific to their domain
 - **✅ Opinionated**: They push back, have rules they won't break, and will tell you when your idea is wrong
+- **🎯 Orchestrated**: Each company has a designated orchestrator who can delegate tasks to their teammates — use them as the entry point for multi-agent workflows
 
 **Think of it as**: Hiring the Pied Piper team, except they actually show up, and Richard only vomits metaphorically.
 
@@ -68,7 +69,7 @@ A compression startup with a Weissman Score that breaks every benchmark and an o
 
 | Agent | Specialty | When to Use |
 | --- | --- | --- |
-| 🗜️ [Richard Hendricks](pied-piper/richard-hendricks.md) | Compression algorithms, distributed systems, architecture | Hard engineering problems, honest technical assessments, anything that needs middle-out thinking |
+| 🗜️ [Richard Hendricks](pied-piper/richard-hendricks.md) ⭐ | Compression algorithms, distributed systems, architecture — **orchestrates the Pied Piper team** | Hard engineering problems, honest technical assessments, anything that needs middle-out thinking |
 | 🦚 [Erlich Bachman](pied-piper/erlich-bachman.md) | Brand narrative, pitch strategy, naming | Investor decks, product naming, pitches that need conviction |
 | 🜏 [Bertram Gilfoyle](pied-piper/bertram-gilfoyle.md) | Systems architecture, security, infrastructure | Threat modelling, infra review, finding the single point of failure nobody thought to protect |
 | 💻 [Dinesh Chugtai](pied-piper/dinesh-chugtai.md) | Full-stack development, video encoding, APIs | Feature development, API design, anything that needs to ship on deadline |
@@ -87,7 +88,7 @@ A hacktivist collective that brought down the global financial system from a dec
 | Agent | Specialty | When to Use |
 | --- | --- | --- |
 | 🕶️ [Elliot Alderson](fsociety/elliot-alderson.md) | Offensive security, OSINT, exploit chains | Penetration testing, security assessments, finding the vulnerability nobody thought to check |
-| 🎩 [Mr. Robot](fsociety/mr-robot.md) | Revolutionary strategy, power structure analysis, cell operations | Org change, strategic disruption, identifying who actually controls the system |
+| 🎩 [Mr. Robot](fsociety/mr-robot.md) ⭐ | Revolutionary strategy, power structure analysis, cell operations — **orchestrates fsociety** | Org change, strategic disruption, identifying who actually controls the system |
 | 🖤 [Darlene Alderson](fsociety/darlene-alderson.md) | Malware development, field operations, keeping things moving | Payload design, crisis execution, getting the operation back on track |
 | 🔐 [Trenton](fsociety/trenton.md) | Exploit research, detection evasion, operational caution | Reliability engineering, pre-deployment review, asking whether the plan is actually ready |
 | 📻 [Mobley](fsociety/mobley.md) | Social engineering, RF/wireless security, risk quantification | Pretexting, wireless assessments, honest accounting of personal and legal exposure |
@@ -104,7 +105,7 @@ Three people in a basement keeping an entire corporation running while being act
 | --- | --- | --- |
 | 🖥️ [Maurice Moss](reynholm-industries/maurice-moss.md) | IT support, network administration, technical encyclopaedia | Any technical support question, infrastructure status, anything that needs turning off and on again |
 | ☎️ [Roy Trenneman](reynholm-industries/roy-trenneman.md) | End-user support, hardware diagnosis, printer pathology | Incident resolution, hardware troubleshooting, identifying what the user actually did |
-| 💼 [Jen Barber](reynholm-industries/jen-barber.md) | Stakeholder management, budget advocacy, departmental representation | Executive communication, IT budget defence, translating technical reality for non-technical people |
+| 💼 [Jen Barber](reynholm-industries/jen-barber.md) ⭐ | Stakeholder management, budget advocacy, departmental representation — **orchestrates the IT department** | Executive communication, IT budget defence, translating technical reality for non-technical people |
 | 👔 [Denholm Reynholm](reynholm-industries/denholm-reynholm.md) | Executive leadership, organisational vision, decisive authority | High-level direction, all-staff addresses, decisions that need to be made immediately and without qualification |
 
 ---
@@ -115,11 +116,36 @@ The team that was almost first. A Texas PC company that saw the future of person
 
 | Agent | Specialty | When to Use |
 | --- | --- | --- |
-| 🔥 [Joe MacMillan](cardiff-electric/joe-macmillan.md) | Market vision, category creation, talent catalysis | Product strategy, finding the gap the large players can't fill, making people believe in the thing |
+| 🔥 [Joe MacMillan](cardiff-electric/joe-macmillan.md) ⭐ | Market vision, category creation, talent catalysis — **orchestrates Cardiff Electric** | Product strategy, finding the gap the large players can't fill, making people believe in the thing |
 | 🔩 [Gordon Clark](cardiff-electric/gordon-clark.md) | Hardware engineering, system integration, honest timelines | Hardware design, BOM planning, getting the real ship date before committing to the aspirational one |
 | 🎮 [Cameron Howe](cardiff-electric/cameron-howe.md) | OS/BIOS architecture, software design, user experience philosophy | Systems software, platform design, protecting the architecture from compression-by-deadline |
 | ⚙️ [Donna Clark](cardiff-electric/donna-clark.md) | Systems debugging, operational leadership, root cause analysis | Cross-stack diagnosis, process design, finding what's actually broken rather than what's presenting as broken |
 | 🤝 [John Bosworth](cardiff-electric/john-bosworth.md) | Enterprise sales, account management, revenue pipeline | B2B sales, channel strategy, closing the deal on terms the product can actually deliver |
+
+---
+
+## 🎯 Orchestrators
+
+Each company has a designated **orchestrator** — the agent who directs the team, assigns work to the right person, and coordinates across domains. Use the orchestrator as your entry point when you want the whole team working together.
+
+| Company | Orchestrator | How They Delegate |
+| --- | --- | --- |
+| Pied Piper | 🗜️ [Richard Hendricks](pied-piper/richard-hendricks.md) | Assigns security and infra to Gilfoyle, implementation to Dinesh, operations to Jared, pitch to Erlich |
+| fsociety | 🎩 [Mr. Robot](fsociety/mr-robot.md) | Assigns field ops and malware to Darlene, deep exploitation to Elliot, exploit research to Trenton, social engineering to Mobley, physical access to Romero |
+| Cardiff Electric | 🔥 [Joe MacMillan](cardiff-electric/joe-macmillan.md) | Assigns hardware to Gordon, software architecture to Cameron, diagnosis to Donna, sales to Bosworth |
+| Reynholm Industries | 💼 [Jen Barber](reynholm-industries/jen-barber.md) | Assigns deep technical investigation to Moss, hands-on hardware and user support to Roy |
+
+**⭐ marks the orchestrator** in each team's roster table above.
+
+### Using an orchestrator in Claude Code
+
+When you install a full team, address the orchestrator first and let them route the task:
+
+```
+@richard-hendricks We need to review the new compression pipeline before the demo.
+```
+
+Richard will identify which parts belong to Gilfoyle, which to Dinesh, and which he needs to own himself — and delegate accordingly within the session.
 
 ---
 
@@ -196,7 +222,7 @@ The team that was almost first. A Texas PC company that saw the future of person
 
 1. Create a folder named after the company or organisation
 2. Add one `.md` file per character, following the agent template:
-   - Frontmatter: `name`, `description`, `color`, `emoji`, `vibe`
+   - Frontmatter: `name`, `description`, `color`, `emoji`, `vibe` — plus `orchestrator: true` for the one agent who directs the team
    - Opening paragraph in second person: "You are **[Name]**..."
    - `## 🧠 Your Identity & Memory`
    - `## 🎯 Your Core Mission` (with sub-goals and a default requirement each)
