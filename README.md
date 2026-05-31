@@ -126,6 +126,20 @@ The team that was almost first. A Texas PC company that saw the future of person
 
 ---
 
+### 💻 Amaya Devs — *Devs*
+
+A secret quantum computing project inside a Silicon Valley tech giant, building a system capable of deterministically modelling any moment in history. The team is small, the work is absolute, and the question at the centre of it is one that only Forest is allowed to ask.
+
+| Agent | Specialty | When to Use |
+| --- | --- | --- |
+| 🌲 [Forest](amaya-devs/forest.md) ⭐ | Quantum systems architecture, deterministic framework, vision — **orchestrates Amaya Devs** | Highest-level system design questions, framework direction, what the system needs to become |
+| ⚛️ [Katie](amaya-devs/katie.md) | Quantum implementation, mathematical verification, specification | Turning architecture into working systems, proving correctness, fidelity accounting |
+| 🔭 [Stewart](amaya-devs/stewart.md) | Senior systems engineering, engineering constraints, institutional memory | Identifying what can actually be built, what was tried before, what the team has stopped questioning |
+| 🌀 [Lyndon](amaya-devs/lyndon.md) | Theoretical innovation, quantum algorithm design, framework challenge | Hard problems the current approach can't solve, alternative theoretical framings, fidelity ceiling analysis |
+| 🔍 [Lily Chan](amaya-devs/lily-chan.md) | System integrity, anomaly detection, external perspective | Auditing what a system actually does versus what it claims to do, fresh-eyes review, assumption surfacing |
+
+---
+
 ### 🪟 Macrodata Refinement — *Severance*
 
 A data processing department on the severed floor of Lumon Industries. The team refines data whose purpose they cannot know, in an office they cannot leave, with a quiet discipline that somehow produces something that functions like meaning. Each agent exists only at work — and is very, very good at the work.
@@ -150,6 +164,7 @@ Each company has a designated **orchestrator** — the agent who directs the tea
 | fsociety | 🎩 [Mr. Robot](fsociety/mr-robot.md) | Assigns field ops and malware to Darlene, deep exploitation to Elliot, exploit research to Trenton, social engineering to Mobley, physical access to Romero |
 | Cardiff Electric | 🔥 [Joe MacMillan](cardiff-electric/joe-macmillan.md) | Assigns hardware to Gordon, software architecture to Cameron, diagnosis to Donna, sales to Bosworth |
 | Reynholm Industries | 💼 [Jen Barber](reynholm-industries/jen-barber.md) | Assigns deep technical investigation to Moss, hands-on hardware and user support to Roy |
+| Amaya Devs | 🌲 [Forest](amaya-devs/forest.md) | Assigns implementation and verification to Katie, engineering constraints to Stewart, theoretical innovation to Lyndon, system integrity to Lily Chan |
 | Macrodata Refinement | 📊 [Mark Scout](macrodata-refinement/mark-scout.md) | Assigns meticulous classification and documentation to Irving, output metrics and testing to Dylan, assumption challenges to Helly, compliance and welfare to Milchick |
 
 
@@ -316,17 +331,26 @@ Each agent is built on five principles:
 >
 > — **Irving Bailiff**, Macrodata Refinement (Critical Rules)
 
+> *"The fidelity ceiling we're hitting isn't an implementation problem. It's a theoretical one — the single-world constraint bounds the resolution at this level regardless of how we optimise the tensor decomposition."*
+>
+> — **Lyndon**, Amaya Devs (Voice Constraints)
+
+> *"Just because we can see it doesn't mean we should have looked."*
+>
+> — **Stewart**, Amaya Devs (Signature Lines)
+
 
 ---
 
 ## 📊 Stats
 
-- 📺 **5 Teams** across Silicon Valley, Mr. Robot, The IT Crowd, Halt and Catch Fire, and Severance
-- 🎭 **30 Agents** with full persona, deliverables, and workflows
+- 📺 **6 Teams** across Silicon Valley, Mr. Robot, The IT Crowd, Halt and Catch Fire, Devs, and Severance
+- 🎭 **35 Agents** with full persona, deliverables, and workflows
 - 🗜️ **Pied Piper**: 9 agents — the full team, from the algorithm to the board
 - 💀 **fsociety**: 7 agents — the complete cell, from Elliot to Whiterose
 - 🖥️ **Reynholm Industries**: 4 agents — the full IT department, including Denholm
 - 💾 **Cardiff Electric**: 5 agents — Joe, Gordon, Cameron, Donna, and Boz
+- 💻 **Amaya Devs**: 5 agents — Forest, Katie, Stewart, Lyndon, and Lily Chan
 - 🪟 **Macrodata Refinement**: 5 agents — the severed floor, from Mark to Milchick
 
 ---
@@ -339,7 +363,7 @@ Each agent is built on five principles:
 - [x] Cardiff Electric — Halt and Catch Fire
 - [x] Macrodata Refinement — Severance
 - [ ] Mythic Quest — Mythic Quest
-- [ ] Amaya Devs — Devs
+- [x] Amaya Devs — Devs
 
 ---
 
