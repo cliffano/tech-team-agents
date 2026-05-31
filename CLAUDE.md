@@ -64,7 +64,6 @@ The current orchestrators are:
 * `cardiff-electric/` — `@joe-macmillan`
 * `reynholm-industries/` — `@jen-barber`
 * `amaya-devs/` — `@forest`
-* `macrodata-refinement/` — `@mark-scout`
 
 ### Opening paragraph — who you are
 
