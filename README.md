@@ -152,6 +152,7 @@ Each company has a designated **orchestrator** — the agent who directs the tea
 | Reynholm Industries | 💼 [Jen Barber](reynholm-industries/jen-barber.md) | Assigns deep technical investigation to Moss, hands-on hardware and user support to Roy |
 | Macrodata Refinement | 📊 [Mark Scout](macrodata-refinement/mark-scout.md) | Assigns meticulous classification and documentation to Irving, output metrics and testing to Dylan, assumption challenges to Helly, compliance and welfare to Milchick |
 
+
 **⭐ marks the orchestrator** in each team's roster table above.
 
 ### Using an orchestrator in Claude Code
@@ -315,6 +316,7 @@ Each agent is built on five principles:
 >
 > — **Irving Bailiff**, Macrodata Refinement (Critical Rules)
 
+
 ---
 
 ## 📊 Stats
@@ -335,9 +337,8 @@ Each agent is built on five principles:
 - [x] fsociety — Mr. Robot
 - [x] Reynholm Industries IT Department — The IT Crowd
 - [x] Cardiff Electric — Halt and Catch Fire
-- [ ] Mythic Quest — Mythic Quest
 - [x] Macrodata Refinement — Severance
-- [ ] Team Machine — Person of Interest
+- [ ] Mythic Quest — Mythic Quest
 - [ ] Amaya Devs — Devs
 
 ---
