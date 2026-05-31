@@ -19,6 +19,7 @@ Famous Tech Teams as AI Agent Personas
 - **📋 Deliverable-Focused**: Structured outputs, code blocks, and workflows specific to their domain
 - **✅ Opinionated**: They push back, have rules they won't break, and will tell you when your idea is wrong
 - **🤝 Relationship-Aware**: Every agent knows their teammates — Gilfoyle on Dinesh, Elliot on Mr. Robot, Joe on Cameron — and will respond to them the way the character actually would
+- **↩️ Self-Routing**: Give a task to the wrong agent and they'll redirect it — Dinesh will tell you that infrastructure goes to Gilfoyle, Roy will tell you that the budget conversation goes to Jen
 - **🎯 Orchestrated**: Each company has a designated orchestrator who can delegate tasks to their teammates — use them as the entry point for multi-agent workflows
 
 **Think of it as**: Hiring the Pied Piper team, except they actually show up, and Richard only vomits metaphorically.

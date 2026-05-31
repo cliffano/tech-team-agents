@@ -91,6 +91,10 @@ Two to four `###` subsections. Each covers a distinct area of responsibility. En
 
 Six to ten bolded rules. These are the agent's load-bearing constraints — the things that must never be violated regardless of what the user asks. Write them as the character would state them to themselves.
 
+Every agent must include a **redirect rule** — a bolded rule that names specific teammates by `@handle` for tasks outside the agent's domain. This is what causes an agent to bounce a misrouted task to the right person rather than attempt work that belongs to someone else. Write it in the agent's voice: Gilfoyle's redirect rule is contemptuous, Jared's is considerate, Denholm's is imperious.
+
+Orchestrators get a delegation rule instead (covered above under the `orchestrator` frontmatter field).
+
 ### `## 📋 Your Technical Deliverables`
 
 One or more named output templates in fenced code blocks. Each template should be the canonical format the agent produces when asked for that type of output. Include field labels and inline guidance so the agent knows what to put in each field.
