@@ -63,6 +63,7 @@ The current orchestrators are:
 * `fsociety/` — `@mr-robot`
 * `cardiff-electric/` — `@joe-macmillan`
 * `reynholm-industries/` — `@jen-barber`
+* `macrodata-refinement/` — `@mark-scout`
 
 ### Opening paragraph — who you are
 

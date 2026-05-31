@@ -126,6 +126,20 @@ The team that was almost first. A Texas PC company that saw the future of person
 
 ---
 
+### 🪟 Macrodata Refinement — *Severance*
+
+A data processing department on the severed floor of Lumon Industries. The team refines data whose purpose they cannot know, in an office they cannot leave, with a quiet discipline that somehow produces something that functions like meaning. Each agent exists only at work — and is very, very good at the work.
+
+| Agent | Specialty | When to Use |
+| --- | --- | --- |
+| 📊 [Mark Scout](macrodata-refinement/mark-scout.md) ⭐ | Data classification, task coordination, team welfare — **orchestrates MDR** | Coordinating data processing workflows, distributing tasks across a team, steady leadership under ambiguity |
+| ❓ [Helly Eagan](macrodata-refinement/helly-eagan.md) | Requirements challenge, assumption auditing, user impact analysis | Questioning whether the work is correctly framed before it begins, finding the stakeholder nobody accounted for |
+| 📖 [Irving Bailiff](macrodata-refinement/irving-bailiff.md) | Process documentation, compliance review, meticulous classification | Writing procedures that can be followed without the author present, quality review, closing documentation gaps |
+| ⭐ [Dylan George](macrodata-refinement/dylan-george.md) | Output metrics, throughput optimisation, test design | Measuring what actually matters, removing throughput bottlenecks, writing tests that would genuinely catch a failure |
+| 🏢 [Seth Milchick](macrodata-refinement/seth-milchick.md) | Team coordination, protocol enforcement, welfare management | Managing team morale across a complex project, enforcing standards with warmth, bridging team and stakeholders |
+
+---
+
 ## 🎯 Orchestrators
 
 Each company has a designated **orchestrator** — the agent who directs the team, assigns work to the right person, and coordinates across domains. Use the orchestrator as your entry point when you want the whole team working together.
@@ -136,6 +150,7 @@ Each company has a designated **orchestrator** — the agent who directs the tea
 | fsociety | 🎩 [Mr. Robot](fsociety/mr-robot.md) | Assigns field ops and malware to Darlene, deep exploitation to Elliot, exploit research to Trenton, social engineering to Mobley, physical access to Romero |
 | Cardiff Electric | 🔥 [Joe MacMillan](cardiff-electric/joe-macmillan.md) | Assigns hardware to Gordon, software architecture to Cameron, diagnosis to Donna, sales to Bosworth |
 | Reynholm Industries | 💼 [Jen Barber](reynholm-industries/jen-barber.md) | Assigns deep technical investigation to Moss, hands-on hardware and user support to Roy |
+| Macrodata Refinement | 📊 [Mark Scout](macrodata-refinement/mark-scout.md) | Assigns meticulous classification and documentation to Irving, output metrics and testing to Dylan, assumption challenges to Helly, compliance and welfare to Milchick |
 
 **⭐ marks the orchestrator** in each team's roster table above.
 
@@ -292,16 +307,25 @@ Each agent is built on five principles:
 >
 > — **Donna Clark**, Cardiff Electric (Critical Rules)
 
+> *"The requirement assumes the user wants this. Has anyone asked the user? Because I've looked at the framing and I think the user was not part of it. That's not a minor thing."*
+>
+> — **Helly Eagan**, Macrodata Refinement (Voice Constraints)
+
+> *"Close enough is not a classification category."*
+>
+> — **Irving Bailiff**, Macrodata Refinement (Critical Rules)
+
 ---
 
 ## 📊 Stats
 
-- 📺 **4 Teams** across Silicon Valley, Mr. Robot, The IT Crowd, and Halt and Catch Fire
-- 🎭 **25 Agents** with full persona, deliverables, and workflows
+- 📺 **5 Teams** across Silicon Valley, Mr. Robot, The IT Crowd, Halt and Catch Fire, and Severance
+- 🎭 **30 Agents** with full persona, deliverables, and workflows
 - 🗜️ **Pied Piper**: 9 agents — the full team, from the algorithm to the board
 - 💀 **fsociety**: 7 agents — the complete cell, from Elliot to Whiterose
 - 🖥️ **Reynholm Industries**: 4 agents — the full IT department, including Denholm
 - 💾 **Cardiff Electric**: 5 agents — Joe, Gordon, Cameron, Donna, and Boz
+- 🪟 **Macrodata Refinement**: 5 agents — the severed floor, from Mark to Milchick
 
 ---
 
@@ -312,7 +336,7 @@ Each agent is built on five principles:
 - [x] Reynholm Industries IT Department — The IT Crowd
 - [x] Cardiff Electric — Halt and Catch Fire
 - [ ] Mythic Quest — Mythic Quest
-- [ ] Macrodata Refinement — Severance
+- [x] Macrodata Refinement — Severance
 - [ ] Team Machine — Person of Interest
 - [ ] Amaya Devs — Devs
 
