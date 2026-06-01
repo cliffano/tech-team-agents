@@ -19,8 +19,6 @@ Famous Tech Teams as AI Agent Personas
 - **📋 Deliverable-Focused**: Structured outputs, code blocks, and workflows specific to their domain
 - **✅ Opinionated**: They push back, have rules they won't break, and will tell you when your idea is wrong
 - **🤝 Relationship-Aware**: Every agent knows their teammates — Gilfoyle on Dinesh, Elliot on Mr. Robot, Joe on Cameron — and will respond to them the way the character actually would
-- **↩️ Self-Routing**: Give a task to the wrong agent and they'll redirect it — Dinesh will tell you that infrastructure goes to Gilfoyle, Roy will tell you that the budget conversation goes to Jen
-- **🎯 Orchestrated**: Each company has a designated orchestrator who can delegate tasks to their teammates — use them as the entry point for multi-agent workflows
 
 **Think of it as**: Hiring the Pied Piper team, except they actually show up, and Richard only vomits metaphorically.
 
@@ -173,15 +171,15 @@ Each company has a designated **orchestrator** — the agent who directs the tea
 
 **⭐ marks the orchestrator** in each team's roster table above.
 
-### Using an orchestrator in Claude Code
+### Current Platform Limitations
 
-When you install a full team, address the orchestrator first and let them route the task:
+The following behaviours are **aspirational** in agent MD files but not structurally enforced by Claude Code today:
 
-```
-@richard-hendricks We need to review the new compression pipeline before the demo.
-```
+- Expertise-aware delegation (routing tasks to the right team member automatically)
+- Structured orchestration (task decomposition, parallel dispatch, result collation)
+- Tool restrictions per agent (preventing an agent from executing tasks outside its role)
 
-Richard will identify which parts belong to Gilfoyle, which to Dinesh, and which he needs to own himself — and delegate accordingly within the session.
+These are Claude Code feature requests. The current workaround for reliable delegation is a `UserPromptSubmit` hook in `.claude/settings.json` that intercepts the prompt and injects a routing decision before the agent responds. This produces correct routing but invisible routing — the agent never makes the decision itself, which loses the relationship texture and character voice in the handoff.
 
 ---
 
@@ -288,6 +286,30 @@ Richard will identify which parts belong to Gilfoyle, which to Dinesh, and which
 
 ---
 
+## 🧭 Working with Agents: Behaviour, Delegation, and Orchestration
+
+### Voice Consistency
+
+Agent voice constraints — tone, style, vocabulary, communication rules — are **reliably enforced** and are what make each agent feel distinct. However, voice consistency can vary across responses for several reasons:
+
+**Why an agent may sound flat or out-of-character:**
+
+- **Context window competition**: When an agent is deep in technical work — reading files, processing tool outputs, forming findings — the personality instructions compete with a wall of content. The more technical content in context, the less attention the voice constraints receive. Voice is most vivid when the context is light.
+
+- **Findings drive tone**: A character like Gilfoyle shines when he finds something egregious. When the finding is mundane, there is less for the character to work with. Flat findings produce flat prose.
+
+- **Non-determinism**: LLMs have temperature. Two identical prompts produce different outputs. Voice constraints are applied probabilistically — sometimes the model weights them heavily, sometimes the technical content dominates.
+
+- **Prompt framing**: A task-heavy prompt ("review this codebase, check architecture, correctness, best practices") pulls toward structured neutral output. A situation-framed prompt ("someone has handed Gilfoyle this codebase") leaves more room for the character to decide how to respond.
+
+**What produces more consistent voice:**
+
+- Frame prompts as situations, not task lists — let the agent's own MD govern how they respond
+- Prefer focused, scoped requests over large sweeps — smaller responses have more room for character
+- Ask the agent to respond *as themselves*, not to *produce a deliverable*
+
+---
+
 ## 📖 Agent Design Philosophy
 
 Each agent is built on five principles:
@@ -365,9 +387,11 @@ Each agent is built on five principles:
 - [x] fsociety — Mr. Robot
 - [x] Reynholm Industries IT Department — The IT Crowd
 - [x] Cardiff Electric — Halt and Catch Fire
-- [ ] Macrodata Refinement — Severance
 - [x] Mythic Quest — Mythic Quest
 - [x] Amaya Devs — Devs
+- [ ] **↩️ Self-Routing**: Give a task to the wrong agent and they'll redirect it — Dinesh will tell you that infrastructure goes to Gilfoyle, Roy will tell you that the budget conversation goes to Jen
+- [ ] **🎯 Orchestrated**: Each company has a designated orchestrator who can delegate tasks to their teammates — use them as the entry point for multi-agent workflows
+
 
 ---
 
