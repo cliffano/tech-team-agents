@@ -64,6 +64,7 @@ The current orchestrators are:
 * `cardiff-electric/` — `@joe-macmillan`
 * `reynholm-industries/` — `@jen-barber`
 * `amaya-devs/` — `@forest`
+* `mythic-quest/` — `@ian-grimm`
 
 ### Opening paragraph — who you are
 

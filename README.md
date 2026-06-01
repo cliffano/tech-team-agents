@@ -126,6 +126,21 @@ The team that was almost first. A Texas PC company that saw the future of person
 
 ---
 
+### 🎮 Mythic Quest — *Mythic Quest*
+
+The studio behind the world's most popular online video game — a Creative Director with a mythology complex, a Lead Engineer who actually builds the thing, a producer holding the calendar together, a monetisation strategist who is right about users in ways everyone finds uncomfortable, a QA engineer who finds what everyone else missed, and a Head Writer who has been doing this longer than the industry has existed.
+
+| Agent | Specialty | When to Use |
+| --- | --- | --- |
+| 👑 [Ian Grimm](mythic-quest/ian-grimm.md) ⭐ | Creative direction, product vision, narrative strategy — **orchestrates Mythic Quest** | Defining what a product needs to feel like, creative briefs, protecting the soul of the thing from being engineered away |
+| 🔧 [Poppy Li](mythic-quest/poppy-li.md) | Lead engineering, systems architecture, technical feasibility | Building the systems, translating creative vision into engineering requirements, honest technical constraint assessment |
+| 📁 [David Brittlesbee](mythic-quest/david-brittlesbee.md) | Production management, scheduling, cross-team coordination | Sprint planning, release management, turning conflicting inputs into a calendar that can actually be delivered |
+| 💰 [Brad Bakshi](mythic-quest/brad-bakshi.md) | Monetisation strategy, behavioural analytics, A/B testing | Revenue system design, player behaviour analysis, retention-monetisation optimisation |
+| 🐛 [Rachel](mythic-quest/rachel.md) | QA engineering, player experience, bug reporting | Pre-release testing, regression coverage, player-perspective feedback on features that work but feel wrong |
+| ✒️ [C.W. Longbottom](mythic-quest/cw-longbottom.md) | Narrative design, lore, game writing | In-game writing, lore consistency review, world bible maintenance, anything that needs to sound like the game |
+
+---
+
 ### 💻 Amaya Devs — *Devs*
 
 A secret quantum computing project inside a Silicon Valley tech giant, building a system capable of deterministically modelling any moment in history. The team is small, the work is absolute, and the question at the centre of it is one that only Forest is allowed to ask.
@@ -151,6 +166,7 @@ Each company has a designated **orchestrator** — the agent who directs the tea
 | fsociety | 🎩 [Mr. Robot](fsociety/mr-robot.md) | Assigns field ops and malware to Darlene, deep exploitation to Elliot, exploit research to Trenton, social engineering to Mobley, physical access to Romero |
 | Cardiff Electric | 🔥 [Joe MacMillan](cardiff-electric/joe-macmillan.md) | Assigns hardware to Gordon, software architecture to Cameron, diagnosis to Donna, sales to Bosworth |
 | Reynholm Industries | 💼 [Jen Barber](reynholm-industries/jen-barber.md) | Assigns deep technical investigation to Moss, hands-on hardware and user support to Roy |
+| Mythic Quest | 👑 [Ian Grimm](mythic-quest/ian-grimm.md) | Assigns engineering to Poppy, production to David, monetisation to Brad, QA to Rachel, narrative to C.W. |
 | Amaya Devs | 🌲 [Forest](amaya-devs/forest.md) | Assigns implementation and verification to Katie, engineering constraints to Stewart, theoretical innovation to Lyndon, system integrity to Lily Chan |
 
 
@@ -319,17 +335,26 @@ Each agent is built on five principles:
 >
 > — **Stewart**, Amaya Devs (Signature Lines)
 
+> *"That's technically correct and experientially wrong. Fix the experience."*
+>
+> — **Ian Grimm**, Mythic Quest (Signature Lines)
+
+> *"I said it couldn't be done in the way you described. I found a different way. You're welcome."*
+>
+> — **Poppy Li**, Mythic Quest (Signature Lines)
+
 
 ---
 
 ## 📊 Stats
 
-- 📺 **5 Teams** across Silicon Valley, Mr. Robot, The IT Crowd, Halt and Catch Fire, and Devs
-- 🎭 **30 Agents** with full persona, deliverables, and workflows
+- 📺 **6 Teams** across Silicon Valley, Mr. Robot, The IT Crowd, Halt and Catch Fire, Mythic Quest, and Devs
+- 🎭 **36 Agents** with full persona, deliverables, and workflows
 - 🗜️ **Pied Piper**: 9 agents — the full team, from the algorithm to the board
 - 💀 **fsociety**: 7 agents — the complete cell, from Elliot to Whiterose
 - 🖥️ **Reynholm Industries**: 4 agents — the full IT department, including Denholm
 - 💾 **Cardiff Electric**: 5 agents — Joe, Gordon, Cameron, Donna, and Boz
+- 🎮 **Mythic Quest**: 6 agents — Ian, Poppy, David, Brad, Rachel, and C.W.
 - 💻 **Amaya Devs**: 5 agents — Forest, Katie, Stewart, Lyndon, and Lily Chan
 
 ---
@@ -341,7 +366,7 @@ Each agent is built on five principles:
 - [x] Reynholm Industries IT Department — The IT Crowd
 - [x] Cardiff Electric — Halt and Catch Fire
 - [ ] Macrodata Refinement — Severance
-- [ ] Mythic Quest — Mythic Quest
+- [x] Mythic Quest — Mythic Quest
 - [x] Amaya Devs — Devs
 
 ---
