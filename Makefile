@@ -22,4 +22,13 @@ test-claude-agents:
 		claude -p "@$$name Introduce yourself and describe what you're specialized in doing."; \
 	done
 
-.PHONY: ci deps deps-extra-apt lint install-claude-agents test-claude-agents
+release-major:
+	rtk release --release-increment-type major
+
+release-minor:
+	rtk release --release-increment-type minor
+
+release-patch:
+	rtk release --release-increment-type patch
+
+.PHONY: ci deps deps-extra-apt lint install-claude-agents test-claude-agents release-major release-minor release-patch
