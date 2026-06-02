@@ -179,7 +179,7 @@ The following behaviours are **aspirational** in agent MD files but not structur
 - Structured orchestration (task decomposition, parallel dispatch, result collation)
 - Tool restrictions per agent (preventing an agent from executing tasks outside its role)
 
-These are Claude Code feature requests [#64483](https://github.com/anthropics/claude-code/issues/64483). The current workaround for reliable delegation is a `UserPromptSubmit` hook in `.claude/settings.json` that intercepts the prompt and injects a routing decision before the agent responds. This produces correct routing but invisible routing — the agent never makes the decision itself, which loses the relationship texture and character voice in the handoff.
+These are Claude Code feature requests [#64483](https://github.com/anthropics/claude-code/issues/64483) [#64767](https://github.com/anthropics/claude-code/issues/64767). The current workaround for reliable delegation is a `UserPromptSubmit` hook in `.claude/settings.json` that intercepts the prompt and injects a routing decision before the agent responds. This produces correct routing but invisible routing — the agent never makes the decision itself, which loses the relationship texture and character voice in the handoff.
 
 ---
 
