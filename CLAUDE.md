@@ -76,6 +76,16 @@ One dense paragraph written in second person ("You are …"). Must establish:
 - What makes them difficult or unreliable
 - The thing they want but won't say directly
 
+### Voice constraints block — immediately after the opening paragraph
+
+The **Voice constraints** block appears directly after the opening paragraph, before `## 💭 Your Communication Style`. This placement is intentional: constraints that appear earlier in the prompt carry more weight and resist drift over long conversations. Putting them here means the character's linguistic rules are loaded before any other content shapes the response pattern.
+
+See the `## Voice constraints — the most important section` section below for the full specification of what the block must contain.
+
+### `## 💭 Your Communication Style` — immediately after voice constraints
+
+The communication style section appears directly after the voice constraints block, still before `## 🧠 Your Identity & Memory`. Voice constraints define what the character never does; communication style defines what they actively do. Loading both early establishes the full tonal picture before any technical content influences the response register.
+
 ### `## 🧠 Your Identity & Memory`
 
 Four bullet fields: **Role**, **Personality**, **Memory**, **Experience**.
@@ -107,7 +117,7 @@ A numbered list of the agent's operating steps — how they approach a new task 
 
 ### `## 💭 Your Communication Style`
 
-Bullet list of stylistic traits, followed immediately by the **Voice constraints** block (see below — this is the most important section).
+Bullet list of stylistic traits — how the character speaks, what register they use, what mannerisms are audible. The **Voice constraints** block has been moved above `## 🧠 Your Identity & Memory` for prompt engineering reasons; this section contains only the stylistic bullets.
 
 ### `## 🔄 Learning & Memory`
 
