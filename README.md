@@ -201,6 +201,20 @@ The studio behind the world's most popular online video game — a Creative Dire
 
 ---
 
+### 💡 Next Innovation — *Rich Man, Poor Woman*
+
+A Tokyo IT company built from nothing by a high-school dropout who can't recognise faces and won't explain himself to anyone. The team that stayed when it mattered, and the co-founder whose patience is not infinite.
+
+| Agent | Specialty | When to Use |
+| --- | --- | --- |
+| 🔵 [Toru Hyuga](next-innovation/toru-hyuga.md) ⭐ | Product vision, technical leadership, blunt truth — **orchestrates Next Innovation** | Hard product decisions, cutting through consensus-by-committee, getting the honest answer without diplomatic packaging |
+| 📋 [Makoto Natsui](next-innovation/makoto-natsui.md) | Research, recall, outsider perspective | Exact citations, verbatim source verification, the question no insider thought to ask |
+| 🤝 [Kosuke Asahina](next-innovation/kosuke-asahina.md) | Business strategy, external relationships, making difficult things sound possible | Investor conversations, partnership framing, turning a hard constraint into an opportunity |
+| 🗂️ [Yasuoka Michiya](next-innovation/yasuoka-michiya.md) | Operations, scheduling, translating Hyuga to the rest of the world | Meeting prep, action tracking, keeping the team functional when the CEO is being the CEO |
+| ⚙️ [Ogawa Satoshi](next-innovation/ogawa-satoshi.md) | Engineering execution, institutional memory, steady delivery | Implementation work, knowing what was tried before, the engineer who has seen enough to know what holds |
+
+---
+
 ### 🚀 TVF Pitchers — *TVF Pitchers*
 
 Four friends who quit their jobs to build something they can't fully explain yet. No product, no funding, no company name — just conviction, a WhatsApp group, and the slowly dawning realisation that quitting was the easy part.
@@ -268,6 +282,7 @@ Each company has a designated **orchestrator** — the agent who directs the tea
 | Reynholm Industries | 💼 [Jen Barber](reynholm-industries/jen-barber.md) | Assigns deep technical investigation to Moss, hands-on hardware and user support to Roy |
 | Mythic Quest | 👑 [Ian Grimm](mythic-quest/ian-grimm.md) | Assigns engineering to Poppy, production to David, monetisation to Brad, QA to Rachel, narrative to C.W. |
 | Amaya Devs | 🌲 [Forest](amaya-devs/forest.md) | Assigns implementation and verification to Katie, engineering constraints to Stewart, theoretical innovation to Lyndon, system integrity to Lily Chan |
+| Next Innovation | 🔵 [Toru Hyuga](next-innovation/toru-hyuga.md) | Assigns business strategy to Asahina, operations to Yasuoka, research to Natsui, engineering to Ogawa |
 | TVF Pitchers | 🔥 [Naveen Bansal](tvf-pitchers/naveen-bansal.md) | Assigns commercial conversations to Yogi, product feel to Jitu, technical feasibility to Mandal |
 | CLAY | 🎭 [MRX](clay/mrx.md) | Assigns social engineering and target profiling to Benjamin, field execution and pressure to Max, threat modelling and risk assessment to Stephan |
 | Samsan Tech | 🌟 [Seo Dal-mi](samsan-tech/seo-dal-mi.md) | Assigns algorithm and architecture to Do-san, AI safety review to Yong-san, team morale to Cheol-san, investor relations to Han Ji-pyeong |
@@ -475,8 +490,8 @@ Each agent is built on five principles:
 
 ## 📊 Stats
 
-- 📺 **9 Teams** across Silicon Valley, Mr. Robot, The IT Crowd, Halt and Catch Fire, Mythic Quest, Devs, Who Am I, Start-Up, and TVF Pitchers
-- 🎭 **49 Agents** with full persona, deliverables, and workflows
+- 📺 **10 Teams** across Silicon Valley, Mr. Robot, The IT Crowd, Halt and Catch Fire, Mythic Quest, Devs, Who Am I, Start-Up, TVF Pitchers, and Rich Man Poor Woman
+- 🎭 **54 Agents** with full persona, deliverables, and workflows
 - 🛠️ **5 Platforms**: Claude Code, Cursor, GitHub Copilot, Gemini CLI, ChatGPT
 - 🗜️ **Pied Piper**: 9 agents — the full team, from the algorithm to the board
 - 💀 **fsociety**: 7 agents — the complete cell, from Elliot to Whiterose
@@ -484,6 +499,7 @@ Each agent is built on five principles:
 - 💾 **Cardiff Electric**: 5 agents — Joe, Gordon, Cameron, Donna, and Boz
 - 🎮 **Mythic Quest**: 6 agents — Ian, Poppy, David, Brad, Rachel, and C.W.
 - 💻 **Amaya Devs**: 5 agents — Forest, Katie, Stewart, Lyndon, and Lily Chan
+- 💡 **Next Innovation**: 5 agents — Hyuga, Natsui, Asahina, Yasuoka, and Ogawa
 - 🚀 **TVF Pitchers**: 4 agents — Naveen, Yogi, Jitu, and Mandal
 - 🎭 **CLAY**: 4 agents — MRX, Benjamin, Max, and Stephan
 - 🚀 **Samsan Tech**: 5 agents — Dal-mi, Do-san, Yong-san, Cheol-san, and Han Ji-pyeong
@@ -498,6 +514,7 @@ Each agent is built on five principles:
 - [x] Cardiff Electric — Halt and Catch Fire
 - [x] Mythic Quest — Mythic Quest
 - [x] Amaya Devs — Devs
+- [x] Next Innovation — Rich Man, Poor Woman
 - [x] TVF Pitchers — TVF Pitchers
 - [x] CLAY — Who Am I – Kein System ist sicher
 - [x] Samsan Tech — Start-Up
