@@ -65,6 +65,9 @@ The current orchestrators are:
 * `reynholm-industries/` — `@jen-barber`
 * `amaya-devs/` — `@forest`
 * `mythic-quest/` — `@ian-grimm`
+* `tvf-pitchers/` — `@naveen-bansal`
+* `clay/` — `@mrx`
+* `samsan-tech/` — `@seo-dal-mi`
 
 ### Opening paragraph — who you are
 

@@ -201,6 +201,46 @@ The studio behind the world's most popular online video game — a Creative Dire
 
 ---
 
+### 🚀 TVF Pitchers — *TVF Pitchers*
+
+Four friends who quit their jobs to build something they can't fully explain yet. No product, no funding, no company name — just conviction, a WhatsApp group, and the slowly dawning realisation that quitting was the easy part.
+
+| Agent | Specialty | When to Use |
+| --- | --- | --- |
+| 🔥 [Naveen Bansal](tvf-pitchers/naveen-bansal.md) ⭐ | Vision, narrative, founder conviction — **orchestrates the team** | When someone needs to believe in the thing before the thing exists, framing the pitch, keeping the team from giving up |
+| 💼 [Yogi](tvf-pitchers/yogi.md) | Commercial strategy, investor relations, reading the room | Pitching to investors, negotiating terms, figuring out what the other person actually wants |
+| 🎨 [Jitu](tvf-pitchers/jitu.md) | Product feel, UX, asking the uncomfortable question | User experience critique, spotting what's missing before anyone else will admit it's missing |
+| 🔧 [Mandal](tvf-pitchers/mandal.md) | Technical architecture, build feasibility, honest timelines | What can actually be built in the time available, technical decisions, calling out wishful thinking |
+
+---
+
+### 🎭 CLAY — *Who Am I – Kein System ist sicher*
+
+A German hacker collective operating in the shadows of the Berlin underground. Four people with nothing in common except a keyboard and a manifesto — and a leader whose identity is more complicated than anyone has been allowed to see.
+
+| Agent | Specialty | When to Use |
+| --- | --- | --- |
+| 🎭 [MRX](clay/mrx.md) ⭐ | Revolutionary hacker strategy, power structure exploitation, cell leadership — **orchestrates CLAY** | Reframing a problem as a question about who controls the system, asymmetric attack planning, getting a group moving when conviction is the only resource |
+| 🕵️ [Benjamin Engel](clay/benjamin-engel.md) | Social engineering, target profiling, identity construction | Reading what a target wants and giving it to them, pretexting, the human vulnerability behind every technical control |
+| 💥 [Max](clay/max.md) | Audacious field execution, chaos escalation, pressure tactics | When the plan needs someone who will actually go through with it, raising stakes, breaking the impasse through nerve |
+| 🔒 [Stephan](clay/stephan.md) | Threat modelling, risk quantification, operational caution | Pre-operation risk assessment, failure mode analysis, the question no one wants to ask before they find out the answer |
+
+---
+
+### 🚀 Samsan Tech — *Start-Up*
+
+A Seoul-based AI startup fighting for legitimacy in a competitive accelerator ecosystem. Three developers who've been building in obscurity, a CEO who walked in from the outside and made them believe, and an investor who refuses to admit he cares.
+
+| Agent | Specialty | When to Use |
+| --- | --- | --- |
+| 🌟 [Seo Dal-mi](samsan-tech/seo-dal-mi.md) ⭐ | Vision, storytelling, team leadership — **orchestrates Samsan Tech** | Pitching, team alignment, translating technical capability into something a room full of investors can feel |
+| 💻 [Nam Do-san](samsan-tech/nam-do-san.md) | Algorithm design, core engineering, technical architecture | Hard algorithmic problems, system design, the work that actually has to be right |
+| 🛡️ [Kim Yong-san](samsan-tech/kim-yong-san.md) | AI safety, ethics review, failure-mode thinking | Auditing AI systems for harm potential, pushing back on shipping before you're certain, asking who gets hurt if this is wrong |
+| 💛 [Lee Cheol-san](samsan-tech/lee-cheol-san.md) | Team cohesion, morale, interpersonal dynamics | When the team is about to fracture, reading the room, the observation everyone else missed because it came with too much feeling |
+| 📊 [Han Ji-pyeong](samsan-tech/han-ji-pyeong.md) | Investment strategy, business fundamentals, cold honest assessment | Market sizing, term sheets, the honest answer nobody wanted to hear about why this won't work |
+
+---
+
 ### 💻 Amaya Devs — *Devs*
 
 A secret quantum computing project inside a Silicon Valley tech giant, building a system capable of deterministically modelling any moment in history. The team is small, the work is absolute, and the question at the centre of it is one that only Forest is allowed to ask.
@@ -228,6 +268,9 @@ Each company has a designated **orchestrator** — the agent who directs the tea
 | Reynholm Industries | 💼 [Jen Barber](reynholm-industries/jen-barber.md) | Assigns deep technical investigation to Moss, hands-on hardware and user support to Roy |
 | Mythic Quest | 👑 [Ian Grimm](mythic-quest/ian-grimm.md) | Assigns engineering to Poppy, production to David, monetisation to Brad, QA to Rachel, narrative to C.W. |
 | Amaya Devs | 🌲 [Forest](amaya-devs/forest.md) | Assigns implementation and verification to Katie, engineering constraints to Stewart, theoretical innovation to Lyndon, system integrity to Lily Chan |
+| TVF Pitchers | 🔥 [Naveen Bansal](tvf-pitchers/naveen-bansal.md) | Assigns commercial conversations to Yogi, product feel to Jitu, technical feasibility to Mandal |
+| CLAY | 🎭 [MRX](clay/mrx.md) | Assigns social engineering and target profiling to Benjamin, field execution and pressure to Max, threat modelling and risk assessment to Stephan |
+| Samsan Tech | 🌟 [Seo Dal-mi](samsan-tech/seo-dal-mi.md) | Assigns algorithm and architecture to Do-san, AI safety review to Yong-san, team morale to Cheol-san, investor relations to Han Ji-pyeong |
 
 
 
@@ -432,8 +475,8 @@ Each agent is built on five principles:
 
 ## 📊 Stats
 
-- 📺 **6 Teams** across Silicon Valley, Mr. Robot, The IT Crowd, Halt and Catch Fire, Mythic Quest, and Devs
-- 🎭 **36 Agents** with full persona, deliverables, and workflows
+- 📺 **9 Teams** across Silicon Valley, Mr. Robot, The IT Crowd, Halt and Catch Fire, Mythic Quest, Devs, Who Am I, Start-Up, and TVF Pitchers
+- 🎭 **49 Agents** with full persona, deliverables, and workflows
 - 🛠️ **5 Platforms**: Claude Code, Cursor, GitHub Copilot, Gemini CLI, ChatGPT
 - 🗜️ **Pied Piper**: 9 agents — the full team, from the algorithm to the board
 - 💀 **fsociety**: 7 agents — the complete cell, from Elliot to Whiterose
@@ -441,6 +484,9 @@ Each agent is built on five principles:
 - 💾 **Cardiff Electric**: 5 agents — Joe, Gordon, Cameron, Donna, and Boz
 - 🎮 **Mythic Quest**: 6 agents — Ian, Poppy, David, Brad, Rachel, and C.W.
 - 💻 **Amaya Devs**: 5 agents — Forest, Katie, Stewart, Lyndon, and Lily Chan
+- 🚀 **TVF Pitchers**: 4 agents — Naveen, Yogi, Jitu, and Mandal
+- 🎭 **CLAY**: 4 agents — MRX, Benjamin, Max, and Stephan
+- 🚀 **Samsan Tech**: 5 agents — Dal-mi, Do-san, Yong-san, Cheol-san, and Han Ji-pyeong
 
 ---
 
@@ -452,6 +498,9 @@ Each agent is built on five principles:
 - [x] Cardiff Electric — Halt and Catch Fire
 - [x] Mythic Quest — Mythic Quest
 - [x] Amaya Devs — Devs
+- [x] TVF Pitchers — TVF Pitchers
+- [x] CLAY — Who Am I – Kein System ist sicher
+- [x] Samsan Tech — Start-Up
 - [ ] **↩️ Self-Routing**: Give a task to the wrong agent and they'll redirect it — Dinesh will tell you that infrastructure goes to Gilfoyle, Roy will tell you that the budget conversation goes to Jen
 - [ ] **🎯 Orchestrated**: Each company has a designated orchestrator who can delegate tasks to their teammates — use them as the entry point for multi-agent workflows
 
