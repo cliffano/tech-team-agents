@@ -26,25 +26,87 @@ Famous Tech Teams as AI Agent Personas
 
 ## ⚡ Quick Start
 
-### Option 1: Use with Claude Code
+All `install-*` targets follow the same scoping rules:
+
+| Parameter | Behaviour |
+| --- | --- |
+| `AGENT=<file>` | Installs that one agent |
+| `COMPANY=<folder>` | Installs all agents from that company |
+| *(none)* | Installs every agent |
+
+### Claude Code
+
+Agents install globally into `~/.claude/agents/` and are available across all Claude Code sessions.
 
 ```bash
-# Copy a team to your Claude agents directory
-cp pied-piper/*.md ~/.claude/agents/
+# Install all agents
+make install-claude-agents
 
-# Or install all teams at once
-cp **/*.md ~/.claude/agents/
+# Install one company
+make install-claude-agents COMPANY=pied-piper
 
-# Then activate any agent in your Claude sessions:
-# "Use the Gilfoyle agent to review my infrastructure setup"
-# "Ask Erlich to write a pitch for this feature"
+# Install one agent
+make install-claude-agents AGENT=pied-piper/bertram-gilfoyle.md
 ```
 
-### Option 2: Use as System Prompts
+Then activate any agent in your Claude sessions: `@bertram-gilfoyle review my infrastructure setup`.
 
-Each agent file contains a complete system prompt. Copy the content of any `.md` file into your AI tool's system prompt field to activate that agent's persona and expertise.
+### Cursor
 
-### Option 3: Browse and Adapt
+Agents install as `.mdc` rule files in `.cursor/rules/` inside your project. Each appears as a selectable rule in Cursor's agent/rules panel.
+
+```bash
+# Install all agents
+make install-cursor-agents
+
+# Install one company
+make install-cursor-agents COMPANY=fsociety
+
+# Install one agent
+make install-cursor-agents AGENT=pied-piper/bertram-gilfoyle.md
+```
+
+### GitHub Copilot
+
+Copilot reads `.github/copilot-instructions.md` as workspace instructions. One agent or one company sets a focused persona; all agents are concatenated into the file.
+
+```bash
+# Install one agent (recommended)
+make install-copilot-agent AGENT=pied-piper/bertram-gilfoyle.md
+
+# Install one company
+make install-copilot-agent COMPANY=reynholm-industries
+
+# Install all agents (concatenated into one file)
+make install-copilot-agent
+```
+
+Swap agents by running the command again with a different file.
+
+### Gemini CLI
+
+Gemini CLI reads `GEMINI.md` from your project root as its instruction file. One agent or one company sets a focused persona; all agents are concatenated into the file.
+
+```bash
+# Install one agent (recommended)
+make install-gemini-agent AGENT=reynholm-industries/maurice-moss.md
+
+# Install one company
+make install-gemini-agent COMPANY=cardiff-electric
+
+# Install all agents (concatenated into one file)
+make install-gemini-agent
+```
+
+### ChatGPT
+
+ChatGPT has no file-based install mechanism. Open any `.md` file, copy its contents, and paste it into the **System prompt** field of a Custom GPT (via the GPT Builder) or the **Custom instructions** field in ChatGPT settings. Each agent file is a self-contained system prompt — paste and go.
+
+### Use as System Prompts (any tool)
+
+Every agent file works as a drop-in system prompt for any AI tool that accepts one. Copy the content of any `.md` file into your tool's system prompt field to activate that agent's persona.
+
+### Browse and Adapt
 
 Each agent file includes:
 
@@ -372,6 +434,7 @@ Each agent is built on five principles:
 
 - 📺 **6 Teams** across Silicon Valley, Mr. Robot, The IT Crowd, Halt and Catch Fire, Mythic Quest, and Devs
 - 🎭 **36 Agents** with full persona, deliverables, and workflows
+- 🛠️ **5 Platforms**: Claude Code, Cursor, GitHub Copilot, Gemini CLI, ChatGPT
 - 🗜️ **Pied Piper**: 9 agents — the full team, from the algorithm to the board
 - 💀 **fsociety**: 7 agents — the complete cell, from Elliot to Whiterose
 - 🖥️ **Reynholm Industries**: 4 agents — the full IT department, including Denholm
