@@ -22,6 +22,14 @@ Famous Tech Teams as AI Agent Personas
 
 **Think of it as**: Hiring the Pied Piper team, except they actually show up, and Richard only vomits metaphorically.
 
+Get Gilfoyle to review your infrastructure code:
+
+![Gilfoyle's review of infrastructure code](screenshots/bertram-gilfoyle-review.png)
+
+And Jian Yang's short review:
+
+![Jian Yang's review of infrastructure code](screenshots/jian-yang-review.png)
+
 ---
 
 ## ⚡ Quick Start
